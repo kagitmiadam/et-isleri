@@ -34,6 +34,12 @@ module.exports = {
          'min-xl': { min: '1441px' },
          'min-2xl': { min: '1681px' },
          'min-3xl': { min: '1921px' },
+
+         // Yükseklik kırılımları — hero kartı video çerçevesinin (110px) içine
+         // sığsın diye kısa masaüstü/tablet ekranlarda sıkılaşır. Telefonlar
+         // (<=624px) zaten xsm ile kompakt, onlara karışmaz.
+         short: { raw: '(min-width: 625px) and (max-height: 1000px)' },
+         shorter: { raw: '(min-width: 625px) and (max-height: 800px)' },
       },
 
       extend: {

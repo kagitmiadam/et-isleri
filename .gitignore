@@ -13,6 +13,12 @@ bun-debug.log*
 .env
 .env.*
 
+# Token içerebilir — asla commit'lenmemeli
+.npmrc
+
+# Bölünmeden önceki çok sayfalı PDF'ler (assets/doc'takilerin kopyası)
+backup/doc-original/
+
 # Editor
 .vscode/
 .idea/

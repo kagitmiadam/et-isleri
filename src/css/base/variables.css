@@ -21,6 +21,24 @@
       --header-height: 100px;
    }
 }
+
+/* Hero videosunun beyaz çerçevesi. assets/js/script.js içindeki GSAP,
+   #video-animation padding'ini açılışta 0'dan bu değerlere büyütür
+   (>=1024: 110px, >=768: 60px, altı: 10px). Değerler oradakiyle aynı
+   tutulmalı; hero kartı bu çerçevenin içinde kalmak için onu kullanır. */
+:root {
+   --video-inset: 10px;
+}
+@media screen and (min-width: 768px) {
+   :root {
+      --video-inset: 60px;
+   }
+}
+@media screen and (min-width: 1024px) {
+   :root {
+      --video-inset: 110px;
+   }
+}
 .range-fs {
    --range-fs: clamp(
       calc(var(--minv-fs) * 1px),

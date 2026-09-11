@@ -4,6 +4,10 @@
   "workspaces": {
     "": {
       "name": "payex-landing",
+      "dependencies": {
+        "@kagitmiadam/froscript": "^1.0.35",
+        "@kagitmiadam/frosicon": "^1.2.28",
+      },
       "devDependencies": {
         "autoprefixer": "^10.4.20",
         "npm-run-all": "^4.1.5",
@@ -27,6 +31,10 @@
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.6.0", "", {}, "sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw=="],
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
+
+    "@kagitmiadam/froscript": ["@kagitmiadam/froscript@1.0.35", "https://npm.pkg.github.com/download/@kagitmiadam/froscript/1.0.35/30a4b761cecd6568679c7fac55500689014f12e5", { "peerDependencies": { "swiper": ">=11" } }, "sha512-nA6rSpdvJL6U5SqeIHZhB8Ox5YHP05XO/+IfrDryPLD2Kk1Chczx8u5cPCh0LRb+Cqt++/bOl6BKrT9WPJ71xg=="],
+
+    "@kagitmiadam/frosicon": ["@kagitmiadam/frosicon@1.2.28", "https://npm.pkg.github.com/download/@kagitmiadam/frosicon/1.2.28/9984dfbb533cf26542ce8cf4bfe5f8f57b9a9be3", { "peerDependencies": { "react": ">=17" } }, "sha512-GpWfGuP1ozsqeo6seSuBVE2w1C+qZo8p7C5qn1u9ZXxk/lPYXJ+bdyvBHecOvPdmolgdv4CWo4CFn/o5cZOhmQ=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
@@ -416,6 +424,8 @@
 
     "rc": ["rc@1.2.8", "", { "dependencies": { "deep-extend": "^0.6.0", "ini": "~1.3.0", "minimist": "^1.2.0", "strip-json-comments": "~2.0.1" }, "bin": "cli.js" }, "sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw=="],
 
+    "react": ["react@19.3.0", "", {}, "sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog=="],
+
     "read-cache": ["read-cache@1.0.2", "", {}, "sha512-/peqiBB/n07gQGLsWaHho3WfvUyRscw0gYTsEFMhrIe/nWLkYaf5SbKYjGYqtRV3aPwykJgF2VEMo1ac4bnsGA=="],
 
     "read-pkg": ["read-pkg@3.0.0", "", { "dependencies": { "load-json-file": "^4.0.0", "normalize-package-data": "^2.3.2", "path-type": "^3.0.0" } }, "sha512-BLq/cCO9two+lBgiTYNqD6GdtK8s4NpaWrl6/rCO9w0TUS8oJl7cmToOZfRYllKTISY6nt1U7jQ53brmKqY6BA=="],
@@ -509,6 +519,8 @@
     "supports-color": ["supports-color@5.5.0", "", { "dependencies": { "has-flag": "^3.0.0" } }, "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="],
 
     "supports-preserve-symlinks-flag": ["supports-preserve-symlinks-flag@1.0.0", "", {}, "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="],
+
+    "swiper": ["swiper@14.2.0", "", {}, "sha512-GsL4M9Fq7Sg22OyL3SjdNj/0bxTfIxPJJHHW394Li0u5vYtExi0a09iBUc8CuLafJi5pAlH2AHUe1PocxHl45g=="],
 
     "tailwind-scrollbar": ["tailwind-scrollbar@3.1.0", "", { "peerDependencies": { "tailwindcss": "3.x" } }, "sha512-pmrtDIZeHyu2idTejfV59SbaJyvp1VRjYxAjZBH0jnyrPRo6HL1kD5Glz8VPagasqr6oAx6M05+Tuw429Z8jxg=="],
 

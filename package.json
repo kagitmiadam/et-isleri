@@ -10,7 +10,8 @@
     "build": "tailwindcss -i ./src/css/input.css -o ./assets/css/style.css --minify",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "set-domain": "node scripts/set-domain.mjs"
+    "set-domain": "node scripts/set-domain.mjs",
+    "vendor": "mkdir -p assets/js/vendor && cp node_modules/@kagitmiadam/froscript/script/data-lightbox.js assets/js/vendor/froscript-lightbox.js"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
@@ -22,5 +23,9 @@
     "serve": "^14.2.4",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "3.4.17"
+  },
+  "dependencies": {
+    "@kagitmiadam/froscript": "^1.0.35",
+    "@kagitmiadam/frosicon": "^1.2.28"
   }
 }

@@ -77,44 +77,78 @@
          <h1 class="sr-only">ET İşleri — Geleneksel Ocakbaşı Lezzeti</h1>
 
          <section class="hero-section relative h-[100vh] w-full lg:h-svh min-lg:overflow-hidden">
-            <div class="flex h-full w-full items-center justify-center xsm:p-[20px] lg:p-[60px]">
+            <!-- Padding = videonun beyaz çerçevesi (--video-inset) + 20px;
+                 kart çerçeve animasyonu bittiğinde de videonun içinde kalır. -->
+            <div class="flex h-full w-full items-center justify-center p-[calc(var(--video-inset)+20px)]">
                <div id="video-animation" class="absolute inset-0 left-0 z-[-1] h-full w-full" style="padding: 10px">
                   <video autoplay="" loop="" muted="" playsinline="" poster="assets/img/poster.webp" class="h-full w-full object-cover">
                      <source type="video/mp4" src="assets/video/promotion-2.mp4" class="full-cover" />
                   </video>
                </div>
-               <div class="content-wrapper relative z-10 w-full max-w-[560px] border border-solid border-white/15 bg-black/40 p-[50px_60px] text-white backdrop-blur-md xsm:p-[26px_20px] sm:p-[34px_28px]">
-                  <img src="assets/img/logo.webp" alt="ET İşleri" width="420" height="92" class="mx-auto h-[56px] w-auto xsm:h-[34px] sm:h-[38px]" />
+               <div class="content-wrapper relative z-10 flex max-h-full w-full flex-col xsm:max-w-full lg:max-w-[560px] max-w-[560px] border border-solid border-white/15 bg-black/40 p-[50px_60px] text-white backdrop-blur-md xsm:p-[26px_20px] sm:p-[34px_28px] short:py-[30px] shorter:px-[40px]">
+                  <img src="assets/img/logo.webp" alt="ET İşleri" width="420" height="92" class="mx-auto h-[56px] w-auto xsm:h-[34px] sm:h-[38px] short:h-[40px]" />
 
-                  <h2 class="mt-[26px] text-center text-[24px] font-medium tracking-[0.08em] xsm:mt-[18px] xsm:text-[18px] sm:text-[20px]">BİZE ULAŞIN</h2>
-                  <div class="mx-auto mt-[14px] h-px w-[40px] bg-white/40"></div>
+                  <h2 class="mt-[26px] text-center text-[24px] font-medium tracking-[0.08em] xsm:mt-[18px] xsm:text-[18px] sm:text-[20px] short:mt-[16px] short:text-[20px]">BİZE ULAŞIN</h2>
+                  <div class="mx-auto mt-[14px] h-px w-[40px] bg-white/40 short:mt-[10px]"></div>
 
-                  <ul class="mt-[30px] flex flex-col divide-y divide-white/10 xsm:mt-[20px]">
-                     <li class="flex items-start gap-[16px] py-[18px] xsm:gap-[12px] xsm:py-[14px]">
+                  <ul class="mt-[30px] flex flex-col divide-y divide-white/10 xsm:mt-[20px] short:mt-[16px] shorter:grid shorter:grid-cols-2 shorter:gap-[20px] shorter:divide-y-0">
+                     <li class="flex items-start gap-[16px] py-[18px] xsm:gap-[12px] xsm:py-[14px] short:py-[10px] shorter:gap-[10px] shorter:py-0">
                         <svg class="mt-[2px] size-[20px] shrink-0 text-white/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z" />
                         </svg>
                         <div class="min-w-0">
-                           <div class="text-[18px] uppercase tracking-[0.12em] text-white/50 sm:text-[16px]">Telefon</div>
-                           <a href="tel:+905332907979" class="block break-all text-[24px] duration-300 hover:text-white/60 sm:mt-[4px] sm:text-[20px]">0533 290 79 79</a>
+                           <div class="text-[18px] uppercase tracking-[0.12em] text-white/50 sm:text-[16px] short:text-[14px]">Telefon</div>
+                           <a href="tel:+905332907979" class="block break-all text-[24px] duration-300 hover:text-white/60 sm:mt-[4px] sm:text-[20px] short:text-[20px] shorter:text-[15px]">0533 290 79 79</a>
                         </div>
                      </li>
 
-                     <li class="flex items-start gap-[16px] py-[18px] xsm:gap-[12px] xsm:py-[14px]">
+                     <li class="flex items-start gap-[16px] py-[18px] xsm:gap-[12px] xsm:py-[14px] short:py-[10px] shorter:gap-[10px] shorter:py-0">
                         <svg class="mt-[2px] size-[20px] shrink-0 text-white/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2Z" />
                            <path d="m22 6-10 7L2 6" />
                         </svg>
                         <div class="min-w-0">
-                           <div class="text-[18px] uppercase tracking-[0.12em] text-white/50 sm:text-[16px]">E-posta</div>
-                           <a href="mailto:siparis@etisleri.com.tr" class="block break-all text-[24px] duration-300 hover:text-white/60 sm:mt-[4px] sm:text-[20px]">siparis@etisleri.com.tr</a>
+                           <div class="text-[18px] uppercase tracking-[0.12em] text-white/50 sm:text-[16px] short:text-[14px]">E-posta</div>
+                           <a href="mailto:siparis@etisleri.com.tr" class="block break-all text-[24px] duration-300 hover:text-white/60 sm:mt-[4px] sm:text-[20px] short:text-[20px] shorter:text-[15px]">siparis@etisleri.com.tr</a>
                         </div>
                      </li>
                   </ul>
+
+                  <!-- Belgeler: froscript/lightbox (frogallery). Aynı data-lightbox
+                       değerini taşıyan linkler tek galeri olur, PDF'ler iframe'de açılır.
+                       Kart ekrana sığmazsa sayfa değil yalnızca bu liste kayar.
+                       Yeni belge için <li>'yi kopyalayıp href ve metinleri değiştirin. -->
+                  <div class="mt-[26px] flex min-h-0 flex-col border-t border-white/10 pt-[22px] xsm:mt-[18px] xsm:pt-[16px] short:mt-[16px] short:pt-[14px]">
+                     <h3 class="text-[14px] uppercase tracking-[0.12em] text-white/50">Belgelerimiz</h3>
+                     <!-- Belge ikonu bir kez tanımlanır, kartlarda <use> ile çağrılır -->
+                     <svg class="hidden" aria-hidden="true">
+                        <symbol id="icon-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z" />
+                           <path d="M14 2v6h6M9 13h6M9 17h4" />
+                        </symbol>
+                     </svg>
+                     <ul class="mt-[12px] grid min-h-0 grid-cols-2 gap-[8px] overflow-y-auto pr-[4px] scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/20 xsm:grid-cols-1 [&_a]:flex [&_a]:h-full [&_a]:items-start [&_a]:gap-[10px] [&_a]:border [&_a]:border-white/10 [&_a]:p-[10px_12px] [&_a]:duration-300 [&_a:hover]:border-white/30 [&_a:hover]:bg-white/5 [&_b]:block [&_b]:text-[15px] [&_b]:font-medium [&_b]:leading-tight [&_small]:mt-[3px] [&_small]:block [&_small]:text-[12px] [&_small]:leading-snug [&_small]:text-white/50 [&_svg]:mt-[1px] [&_svg]:size-[18px] [&_svg]:shrink-0 [&_svg]:text-white/40 [&_svg]:duration-300 [&_a:hover_svg]:text-white">
+                        <li><a href="assets/doc/iso-9001.pdf" data-lightbox="belgeler" data-lightbox-caption="ISO 9001:2015 — Kalite Yönetim Sistemi"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>ISO 9001:2015</b><small>Kalite Yönetim Sistemi</small></span></a></li>
+                        <li><a href="assets/doc/iso-14001.pdf" data-lightbox="belgeler" data-lightbox-caption="ISO 14001:2015 — Çevre Yönetim Sistemi"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>ISO 14001:2015</b><small>Çevre Yönetim Sistemi</small></span></a></li>
+                        <li><a href="assets/doc/iso-45001.pdf" data-lightbox="belgeler" data-lightbox-caption="ISO 45001:2018 — İş Sağlığı ve Güvenliği Yönetim Sistemi"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>ISO 45001:2018</b><small>İş Sağlığı ve Güvenliği Yönetim Sistemi</small></span></a></li>
+                        <li><a href="assets/doc/iso-22000.pdf" data-lightbox="belgeler" data-lightbox-caption="ISO 22000:2018 — Gıda Güvenliği Yönetim Sistemi"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>ISO 22000:2018</b><small>Gıda Güvenliği Yönetim Sistemi</small></span></a></li>
+                        <li><a href="assets/doc/iso-10002.pdf" data-lightbox="belgeler" data-lightbox-caption="ISO 10002:2018 — Müşteri Memnuniyeti Yönetim Sistemi"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>ISO 10002:2018</b><small>Müşteri Memnuniyeti Yönetim Sistemi</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifikasi.pdf" data-lightbox="belgeler" data-lightbox-caption="OIC/SMIIC 1:2019 — Helal Gıda Sertifikası"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>OIC/SMIIC 1:2019</b><small>Helal Gıda Sertifikası</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-1.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 1/8 — Ürünler 1–14"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 1/8</b><small>Ürünler 1–14</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-2.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 2/8 — Ürünler 15–28"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 2/8</b><small>Ürünler 15–28</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-3.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 3/8 — Ürünler 29–42"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 3/8</b><small>Ürünler 29–42</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-4.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 4/8 — Ürünler 43–56"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 4/8</b><small>Ürünler 43–56</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-5.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 5/8 — Ürünler 57–70"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 5/8</b><small>Ürünler 57–70</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-6.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 6/8 — Ürünler 71–84"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 6/8</b><small>Ürünler 71–84</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-7.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 7/8 — Ürünler 85–98"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 7/8</b><small>Ürünler 85–98</small></span></a></li>
+                        <li><a href="assets/doc/helal-sertifika-eki-8.pdf" data-lightbox="belgeler" data-lightbox-caption="Helal Sertifika Eki 8/8 — Ürünler 99–110"><svg aria-hidden="true"><use href="#icon-doc" /></svg><span class="min-w-0"><b>Helal Sertifika Eki 8/8</b><small>Ürünler 99–110</small></span></a></li>
+                     </ul>
+                  </div>
                </div>
              </div>
          </section>
       </main>
+
 
       <footer class="footer-field relative z-10 !hidden">
          <div class="range-container container mx-auto w-full max-w-[--range-container] px-[--gap] [--maxv-container:1560] [--minv-container:1260]">
@@ -144,6 +178,14 @@
                if (event.target === popup) popup.hidePopover()
             })
          })
+
+      </script>
+
+      <!-- Belge galerisi. Dosya node_modules'tan "bun run vendor" ile kopyalanır;
+           statik yayında node_modules olmadığı için assets altında durur. -->
+      <script type="module">
+         import { dataLightbox } from './assets/js/vendor/froscript-lightbox.js'
+         dataLightbox()
       </script>
    </body>
 </html>
