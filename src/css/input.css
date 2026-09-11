@@ -1,0 +1,36 @@
+/* ---------------------------------------------------------------------------
+   CSS giriş dosyası
+   Çıktı: assets/css/style.css        (npm run build  /  npm run dev)
+
+   SIRALAMA ÖNEMLİ.
+   Bu sıra, elimizdeki derlenmiş style.css'in kaskad sırasını birebir korur.
+   Özellikle base/reset.css, Tailwind preflight'ından ÖNCE gelir — yani
+   preflight onu ezer. Mevcut görünüm bu davranışa dayanıyor; reset'i
+   @layer base içine almak sırayı tersine çevirir ve görünümü değiştirir.
+
+   theme-vars.css ise kendi içinde @layer base ile sarılı olduğu için,
+   dosya sırasından bağımsız olarak preflight'tan SONRA yerleşir.
+--------------------------------------------------------------------------- */
+
+/* 1. Vendor — Swiper (assets/js/script.js içindeki Swiper sürümüyle eşleşir) */
+@import './vendor/swiper.css';
+
+/* 2. data-detect-scroll-position yardımcıları */
+@import './utilities/scroll-position.css';
+
+/* 3. Proje değişkenleri + akışkan tipografi (.range-*) */
+@import './base/variables.css';
+
+/* 4. İkon fontu — dosyalar assets/font/iconfont/ içine gelecek */
+@import './base/iconfont.css';
+
+/* 5. Projeye özel reset / temel öğeler / .text-editor / [popover] */
+@import './base/reset.css';
+
+/* 6. Tema renklerinin CSS değişkeni dökümü (@layer base ile sarılı) */
+@import './base/theme-vars.css';
+
+/* 7. Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

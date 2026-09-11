@@ -1,0 +1,323 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+* {
+   margin: 0;
+   font-family: var(--font-family), sans-serif;
+}
+html {
+   -webkit-text-size-adjust: none;
+   -moz-text-size-adjust: none;
+   text-size-adjust: none;
+}
+body {
+   min-height: 100dvh;
+   line-height: 1.5;
+   background-color: var(--bodyColor);
+   -webkit-font-smoothing: antialiased;
+}
+blockquote,
+q {
+   quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+   content: '';
+   content: none;
+}
+img,
+picture,
+video,
+canvas {
+   display: block;
+   max-width: 100%;
+}
+svg {
+   display: block;
+   overflow: visible;
+}
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   overflow-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4 {
+   text-wrap: balance;
+}
+#root,
+#__next {
+   isolation: isolate;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+   margin-block-end: 0;
+}
+ul[role='list'],
+ol[role='list'] {
+   list-style: none;
+}
+a:not([class]) {
+   -webkit-text-decoration-skip: ink;
+   text-decoration-skip-ink: auto;
+   color: currentColor;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+:target {
+   scroll-margin-block: 5ex;
+}
+input[type='search']::-ms-clear,
+input[type='search']::-ms-reveal {
+   display: none;
+   height: 0px;
+   width: 0px;
+}
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+   display: none;
+}
+input[type='date']::-webkit-inner-spin-button,
+input[type='date']::-webkit-calendar-picker-indicator {
+   display: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+input[type='file']::-webkit-file-upload-button {
+   cursor: pointer;
+}
+a:focus,
+a:focus-visible,
+input:focus,
+input:focus-visible,
+button:focus,
+button:focus-visible,
+textarea:focus,
+textarea:focus-visible,
+select:focus,
+select:focus-visible {
+   outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type='number'] {
+   -moz-appearance: textfield;
+}
+input[type='checkbox'] {
+   -moz-appearance: none;
+   appearance: none;
+   -webkit-appearance: none;
+   outline: none;
+}
+.text-editor {
+   display: flex;
+   flex-direction: column;
+   gap: clamp(16px, 1.563vw, 30px);
+}
+.text-editor h1,
+.text-editor h2,
+.text-editor h3,
+.text-editor h4,
+.text-editor h5,
+.text-editor h6 {
+   color: #000;
+   text-wrap: balance;
+}
+.text-editor h1,
+.text-editor h2,
+.text-editor h3 {
+   letter-spacing: -0.02em;
+   line-height: 1.125;
+}
+.text-editor h4,
+.text-editor h5,
+.text-editor h6 {
+   line-height: 1.25;
+}
+.text-editor ul li,
+.text-editor ol,
+.text-editor li,
+.text-editor p {
+   color: #0009;
+   line-height: 1.6;
+}
+.text-editor h1 {
+   font-size: var(--h1);
+}
+.text-editor h2 {
+   font-size: var(--h2);
+}
+.text-editor h3 {
+   font-size: var(--h3);
+}
+.text-editor h4 {
+   font-size: var(--h4);
+}
+.text-editor h5 {
+   font-size: var(--h5);
+}
+.text-editor h6 {
+   font-size: var(--h6);
+}
+.text-editor p {
+   font-size: var(--p);
+}
+.text-editor ul li,
+.text-editor ol,
+.text-editor li {
+   font-size: var(--li);
+}
+.text-editor ul,
+.text-editor ol {
+   display: flex;
+   flex-direction: column;
+   gap: clamp(0.25rem, 0.417vw, 0.5rem);
+   padding-left: 1.25rem;
+}
+:is(.text-editor ul, .text-editor ol)::marker {
+   color: inherit;
+}
+.text-editor ul {
+   list-style: disc;
+}
+.text-editor ol {
+   list-style: decimal;
+}
+.text-editor a {
+   color: #0009;
+   transition: 0.35s ease color;
+}
+:is(.text-editor a):hover {
+   text-decoration: underline;
+}
+.text-editor strong,
+.text-editor b {
+   font-weight: 700;
+}
+.text-editor em,
+.text-editor i {
+   font-style: italic;
+}
+@media screen and (max-width: 768px) {
+   .text-editor br {
+      content: '';
+   }
+   :is(.text-editor br):after {
+      content: ' ';
+   }
+}
+.text-editor.white h1,
+.text-editor.white h2,
+.text-editor.white h3,
+.text-editor.white h4,
+.text-editor.white h5,
+.text-editor.white h6 {
+   color: #fff;
+}
+.text-editor.white ul li,
+.text-editor.white ol,
+.text-editor.white li,
+.text-editor.white p,
+.text-editor.white a {
+   color: #fff9;
+}
+.armut {
+   color: red;
+}
+body:has([popover]:popover-open) {
+   overflow: hidden;
+}
+[popover] {
+   opacity: 0;
+   transition-duration: 0.3s;
+   transition-property: all;
+   transition-timing-function: ease-out;
+   transition-behavior: allow-discrete;
+}
+.fx:is([popover] .content-wrapper) {
+   transition-property: all;
+   transition-duration: 0.6s;
+   transition-timing-function: cubic-bezier(0.77, 0.16, 0.09, 0.94);
+   transition-behavior: allow-discrete;
+   opacity: 0;
+   transform: translateY(10%) translateZ(0);
+}
+[popover]:popover-open {
+   opacity: 1;
+}
+.fx:is([popover]:popover-open .content-wrapper) {
+   opacity: 1;
+   transform: translateY(0) translateZ(0);
+}
+@starting-style {
+   [popover]:popover-open {
+      opacity: 0;
+   }
+   .fx:is([popover]:popover-open .content-wrapper) {
+      opacity: 0;
+      transform: translateY(10%) translateZ(0);
+   }
+}
+.swiper-button-lock {
+   display: none !important;
+}
+.logo-wrapper {
+   opacity: 0;
+   transform: translateY(-20px);
+   transition: opacity 0.5s ease;
+}
+
+/* Hero'daki iletişim kartının giriş animasyonu.
+   .hero-section ile sınırlı: .content-wrapper adı popup'ların içinde de
+   kullanılıyor, oradaki [popover] geçişlerine karışmamalı.
+   fill-mode "both" gecikme boyunca opacity:0'ı tutar, JS'e gerek kalmaz. */
+@keyframes content-reveal {
+   from {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+.hero-section .content-wrapper {
+   animation: content-reveal 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) 0.5s both;
+}
+@media (prefers-reduced-motion: reduce) {
+   .hero-section .content-wrapper {
+      animation: none;
+   }
+}

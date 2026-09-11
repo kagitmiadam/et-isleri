@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="tr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+      
+      <title>Project Name | home</title>
+      <meta name="description" content="Bu web sitesi kagitmiadam tarafından kodlanmıştır." />
+      <meta name="keywords" content="" />
+      <meta name="author" content="kagitmiadam" />
+
+      <link rel="shortcut icon" href="favicon.webp" type="image/x-icon" />
+      <script type="module" src="script.js"></script>
+      <link rel="stylesheet" href="script.css">
+      <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body class="select-none group/body">
+<header class="header-field w-full left-0 top-0 !hidden fixed z-[100] duration-300 h-[--header-height] [&.scrolling-down]:-translate-y-full" data-detect-scroll-direction="reset-at-top" data-detect-scroll-offset="60">
+   <div class="container range-container [--minv-container:1260] [--maxv-container:1800] max-w-[--range-container] px-[--gap] w-full mx-auto">
+      <div class="wrapper">
+      </div>
+   </div>
+</header>
+
+<penta-yazilim class="block">
+
+<main class="main-field relative">
+   <section class="hero-section h-[100vh] lg:h-full  w-full relative min-lg:overflow-hidden">
+      <div class="flex justify-center items-center h-full w-full xsm:p-[20px] lg:p-[60px]">
+
+         <div id="video-animation" class="absolute inset-0 z-[-1] left-0 h-full w-full" style="padding: 10px;">
+            <video autoplay="" loop="" muted="" playsinline="" class="h-full w-full object-cover">
+               <source type="video/mp4" src="promotion.mp4" class="full-cover">
+            </video>
+         </div>
+         <div id="applyForm"
+            class="max-w-[1017px] mx-auto bg-white z-100 p-[38px_70px] lg:p-[30px_40px] xsm:p-[20px_20px]">
+
+
+            <h2 class="title text-[32px] sm:text-[25px]  text-[#1E1E1E] leading-[48px]  font-[500] text-center">
+               ÖN KAYIT FORMU</h2>
+
+            <div class="form-field pt-[38px] sm:pt-[20px]">
+               <form action="index.html" method="post" class="" aria-label="İletişim Formu" enctype="multipart/form-data"
+                  novalidate="novalidate" data-status="init">
+
+                  <div class="form-container grid grid-cols-1 gap-[38px] xl:gap-7">
+                     <div class="form-item">
+                        <div class="inner-form grid grid-cols-2 gap-[31px] sm:grid-cols-2 sm:gap-4 xsm:grid-cols-1">
+                           <div class="item group/item relative flex items-center justify-between bg-[#F8F8F8]">
+                              <span class="w-full" data-name="your-name"><input
+                                    class="font-[500] leading-normal bg-[#F8F8F8] w-full h-[70px] xs:h-[50px] text-[#1E1E1E] placeholder:text-[#1E1E1E]/70 text-[16px] xs:text-[14px] py-[25px] px-[30px] sm:px-7"
+                                    aria-required="true" aria-invalid="false" placeholder="Adınız Soyadınız*" value=""
+                                    type="text" name="your-name"></span>
+                           </div>
+
+                           <div class="item group/item relative flex items-center justify-between">
+                              <span class="w-full" data-name="your-phone"><input size="50"
+                                    class="font-[500] leading-normal bg-[#F8F8F8] w-full h-[70px] xs:h-[50px] text-[#1E1E1E] placeholder:text-[#1E1E1E]/70 text-[16px] xs:text-[14px] py-[25px] px-[30px] sm:px-7"
+                                    aria-required="true" aria-invalid="false" placeholder="Telefon Numaranız*" value=""
+                                    type="tel" name="your-phone"></span>
+                           </div>
+                           <div class="item group/item relative flex items-center justify-between">
+                              <span class="w-full" data-name="your-date"><input
+                                    class="font-[500] leading-normal bg-[#F8F8F8] w-full h-[70px] xs:h-[50px] text-[#1E1E1E] placeholder:text-[#1E1E1E]/70 text-[16px] xs:text-[14px] py-[25px] px-[30px] sm:px-7"
+                                    aria-required="true" aria-invalid="false" placeholder="Doğum Tarihi GG/AA/YY"
+                                    value="" type="text" name="your-date"></span>
+                           </div>
+                           <div class="item group/item relative flex items-center justify-between">
+                              <span class="w-full" data-name="your-email"><input
+                                    class="font-[500] leading-normal bg-[#F8F8F8] w-full h-[70px] xs:h-[50px] text-[#1E1E1E] placeholder:text-[#1E1E1E]/70 text-[16px] xs:text-[14px] py-[25px] px-[30px] sm:px-7"
+                                    aria-required="true" aria-invalid="false" placeholder="E-posta Adresiniz*" value=""
+                                    type="email" name="your-email"></span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-item">
+                        <div class="inner-form flex flex-col gap-[15px] sm:grid-cols-2 sm:gap-4 xsm:grid-cols-1">
+                           <div class="w-full">
+                              <div
+                                 class="item group/item relative flex items-center justify-between col-span-1 xl:mb-0">
+                                 <span class="w-full " data-name="your-language">
+                                    <textarea cols="100" rows="2" resize="none" maxlength="2000"
+                                       class="font-[500] min-h-[150px] resize-none leading-normal resizw bg-[#F8F8F8] w-full h-[70px] xs:h-[50px] text-[#1E1E1E] placeholder:text-[#1E1E1E]/70 text-[16px] xs:text-[14px] py-[25px] px-[30px] sm:px-7"
+                                       aria-invalid="false"
+                                       placeholder="Payex’te, fiziki kart ve fiziksel cüzdan taşıma ihtiyacının ortandan kalkması dışında başka bir beklentiniz var mı? Varsa, nelerdir?"
+                                       name="your-language"></textarea>
+                                 </span>
+                              </div>
+
+                           </div>
+                           <div class="flex flex-col gap-[30px] sm:grid-cols-2 sm:gap-4 xsm:grid-cols-1">
+                              <div class="w-full grid grid-cols-2 gap-[30px] md:gap-[20px] sm:gap-4 xsm:grid-cols-1">
+                                 <div
+                                    class="item group/item relative flex items-center justify-between col-span-1 xl:mb-0">
+                                    <div class="form-el group/form flex items-start min-md:items-center gap-[10px] relative">
+                                       <div id="checkboxWrapper"
+                                          class="company mt-[6px] relative shrink-0 h-[10px] w-[10px] bg-[#E0EFF2] duration-300">
+                                          <input type="checkbox" name="company"
+                                             class="peer w-[10px] companyBox h-[10px] bg-[#E0EFF2] cursor-pointer checked:!bg-[#1E1E1E] absolute z-10 left-0 top-0 duration-300"
+                                           >
+                                          <div
+                                             class="peer relative shrink-0 h-[10px] w-[10px] bg-[#E0EFF2] z-1 peer-checked:!bg-[#1E1E1E] duration-300">
+                                          </div>
+                                       </div>
+
+
+                                       <label for="company" class="text-[#1E1E1E]/60 leading-snug duration-350 ">
+                                          İşyeri adına kayıt oluşturmak istiyorum</label>
+                                    </div>
+
+                                 </div>
+                                 <div
+                                    class="item group/item relative flex items-center justify-between col-span-1 xl:mb-0">
+                                    <div class="form-el group/form flex items-start min-md:items-center gap-[10px] relative">
+                                       <div id="checkboxWrapper"
+                                          class="checkboxWrapper user mt-[6px] relative shrink-0 h-[10px] w-[10px] bg-[#E0EFF2] duration-300">
+                                          <input type="checkbox" name="user" 
+                                             class="peer w-[10px] userBox h-[10px] bg-[#E0EFF2] cursor-pointer checked:!bg-[#1E1E1E] absolute z-10 left-0 top-0 duration-300"
+                                            >
+                                          <div
+                                             class="peer relative shrink-0 h-[10px] w-[10px] bg-[#E0EFF2] z-1 peer-checked:!bg-[#1E1E1E] duration-300">
+                                          </div>
+                                       </div>
+
+
+                                       <label for="user" class="text-[#1E1E1E]/60 leading-snug duration-350 ">
+                                          Kendi adıma kayıt oluşturmak istiyorum.</label>
+
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div
+                                 class="flex justify-between items-end gap-[30px] w-full col-span-4 xsm:gap-[15px] xsm:flex-col xs:gap-[20px]">
+                                 <div class="kvkk-field group/item relative ">
+                                    <div
+                                       class="relative w-fit h-full flex items-start flex-col justify-center gap-[16px]">
+                                       <div class="form-el group/form flex justify-start  gap-[15px] relative">
+                                          <div id="checkboxWrapper"
+                                             class="checkboxWrapper mt-[6px] relative shrink-0 h-[10px] w-[10px] bg-[#E0EFF2] duration-300">
+                                             <input type="checkbox" name="kvkk" 
+                                                class="peer w-[10px]  h-[10px] bg-[#E0EFF2] cursor-pointer checked:!bg-[#1E1E1E] absolute z-10 left-0 top-0 duration-300"
+                                                id="gdpr">
+                                             <div
+                                                class="peer relative shrink-0 h-[10px] w-[10px] bg-[#E0EFF2] z-1 peer-checked:!bg-[#1E1E1E] duration-300">
+                                             </div>
+                                          </div>
+
+
+                                          <label id="open-popup" for="kvkk"
+                                             class="text-[#1E1E1E]/60 leading-snug duration-350 "><span id="open-popup"
+                                                class="inline relative z-20 cursor-pointer text-[#1E1E1E] font-semibold duration-350">Aydınlatma
+                                                Metni</span>’ni Okudum ve
+                                             Kabul
+                                             Ediyorum.</label>
+                                       </div>
+
+                                       <div class="form-el group/form flex items-start relative">
+
+                                          <div class="text-[#1E1E1E]/60 leading-snug duration-350  max-w-[500px]">
+                                             payeX’e
+                                             katılın, lansmanımıza özel fırsatlardan haberdar olun!
+                                             İlk üç ay ücretsiz payeX+ deneme fırsatı için hemen kaydolun.
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div
+                                    class="button-field group/item relative col-span-1 xs:w-full min-w-[130px] xsm:w-full">
+
+                                    <button type="submit"
+                                       class="button group/button w-full bg-[#1E1E1E] text-[20px] min-lg:hover:bg-black/85 duration-500 text-white font-medium leading-[30px] flex justify-center xsm:p-[10px_15px] xsm:text-[18px] items-center p-[15px_30px]">
+                                       Kayıt ol
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+
+      <div
+         class="logo-payet min-xsm:absolute w-fit min-xsm:left-1/2 min-xsm:-translate-x-1/2 min-xsm:bottom-4 sm:bottom-3 min-xsm:translate-y-[20px] opacity-0 xsm:opacity-100   xsm:pt-[10px]  xsm:pb-[10px] xsm:relative xsm:flex xsm:w-full xsm:justify-center xsm:items-center xsm:translate-x-0 xsm:translate-y-0">
+         <a href="https://payex.tr/">
+            <img src="logo.png" alt="kagitmiadam"
+               class="w-[105px] sm:w-[70px] h-[91px] sm:h-[70px] xs:h-[50px] xsm:w-[40px] xsm:h-[40px]">
+         </a>
+      </div>
+   </section>
+
+
+
+
+</main>
+      <footer class="footer-field relative !hidden z-10">
+         <div class="container range-container [--minv-container:1260] [--maxv-container:1560] max-w-[--range-container] px-[--gap] mx-auto w-full">
+            <div class="wrapper flex items-center justify-between gap-[20px] md:flex-col">
+               <div class="project-name range-1 [--minv-1:12] [--maxv-1:22] px-[--range-1]">
+                  <p class="range-fs [--minv-fs:16] [--maxv-fs:18] [font-size:--range-fs] leading-tight text-black/50 [&_a]:duration-300 [&_a]:text-black/50 [&_a:hover]:text-black">Tüm hakları saklıdır. <a href="index.html">Project Name</a></p>
+               </div>
+
+               <div class="signature flex justify-end md:justify-center">
+                <!-- TODO -->
+                  <div class="logo"></div>
+               </div>
+            </div>
+         </div>
+      </footer>
+        
+   </penta-yazilim>
+
+   
+   
+   
+   <section id="custom-popup" class="popup-field group/popup p-[--gap] fixed hidden left-0 top-0 w-full h-dvh bg-black/80 overflow-hidden border-0 z-[100]">
+         <button class="background absolute left-0 top-0 w-full h-fit bg-white/75 backdrop-blur-sm translate-z-0 cursor-pointer border-0"></button>
+         <div class="content-wrapper fx wrapper max-w-[768px] mx-auto h-full relative z-2">
+            <button id="close-popup" class="custom-close-btn icon-wrapper group/close absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 duration-300 range-1 [--minv-1:36] [--maxv-1:54] size-[--range-1] z-3 bg-main-500 border border-solid border-main-500 flex items-center justify-center rounded-full cursor-pointer hover:bg-main-600 hover:border-600">
+               <div class="close cursor-pointer range-1 [--minv-1:14] [--maxv-1:18] size-[--range-1] duration-300 group-hover/close:rotate-90">
+                  <div class="line range-1 [--minv-1:14] [--maxv-1:18] w-[--range-1] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white group-hover/close:bg-white">
+                  </div>
+                  <div class="line range-1 [--minv-1:14] [--maxv-1:18] w-[--range-1] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-45 bg-white group-hover/close:bg-white">
+                  </div>
+               </div>
+            </button>
+            <div class="inner shadow-popup h-full bg-white range-1 [--minv-1:20] [--maxv-1:30] rounded-[--range-1] range-2 [--minv-2:30] [--maxv-2:90] p-[--range-2]">
+               <div class="overflow-wrapper prevent-scroll-bounce h-full overflow-x-hidden overflow-y-auto pr-[30px] scrollbar-thin scrollbar-w-0.5 scrollbar-track-main-50 scrollbar-thumb-main-200 scrollbar-track-rounded-full scrollbar-thumb-rounded-full overscroll-none scrollable-content scroll-at-top" data-detect-scroll-position="fade-y">
+                  <div class="text-editor">
+                     <!-- .text-editor içerisindeki style attribute değerleri frontendi tasarıma benzetmek adına eklenmiştir, backend aşamasında silinerek panel editöründen tanımlanmalıdır. -->
+                     <h4><strong>KİŞİSEL VERİLERİN KORUNMASI</strong></h4>
+                     <h5><strong>İNTERNET SİTESİ ÇEREZ POLİTİKASI</strong></h5>
+      
+                     <p>Kişisel verileriniz; veri sorumlusu olarak Firma Adı (“ŞİRKET” veya Firma Adı” olarak
+                        adlandırılacaktır.) tarafından işletilen (www.alanadi.com) internet sitesini ziyaret edenlerin
+                        gizliliğini korumak Kurumumuzun önde gelen ilkelerindendir. Bu Çerez Kullanımı Politikası
+                        (“Politika”), tüm web sitesi ziyaretçilerimize ve kullanıcılarımıza hangi tür çerezlerin hangi
+                        koşullarda kullanıldığını açıklamaktadır.</p>
+                     <p>Çerezler, bilgisayarınız ya da mobil cihazınız üzerinden ziyaret ettiğiniz internet siteleri
+                        tarafından cihazınıza veya ağ sunucusuna depolanan küçük metin dosyalarıdır.</p>
+                     <p>Genellikle ziyaret ettiğiniz internet sitesini kullanmanız sırasında size kişiselleştirilmiş bir
+                        deneyim sunmak, sunulan hizmetleri geliştirmek ve deneyiminizi iyileştirmek için kullanılır ve bir
+                        internet sitesinde gezinirken kullanım kolaylığına katkıda bulunabilir. Çerez kullanılmasını tercih
+                        etmezseniz tarayıcınızın ayarlarından Çerezleri silebilir ya da engelleyebilirsiniz. Ancak bunun
+                        internet sitemizi kullanımınızı etkileyebileceğini hatırlatmak isteriz. Tarayıcınızdan Çerez
+                        ayarlarınızı değiştirmediğiniz sürece bu sitede çerez kullanımını kabul ettiğinizi varsayacağız.</p>
+      
+                     <h6><strong>1. ÇEREZLERDE HANGİ TÜR VERİLER İŞLENİR?</strong></h6>
+                     <p>İnternet sitelerinde yer alan çerezlerde, türüne bağlı olarak, siteyi ziyaret ettiğiniz cihazdaki
+                        tarama ve kullanım tercihlerinize ilişkin veriler toplanmaktadır. Bu veriler, eriştiğiniz sayfalar,
+                        incelediğiniz hizmet ve ürünler, tercih ettiğiniz dil seçeneği ve diğer tercihlerinize dair bilgileri
+                        kapsamaktadır.</p>
+      
+                     <h6><strong>2. ÇEREZ NEDİR ve KULLANIM AMAÇLARI NELERDİR?</strong></h6>
+                     <p>Çerezler, ziyaret ettiğiniz internet siteleri tarafından tarayıcılar aracılığıyla cihazınıza veya ağ
+                        sunucusuna depolanan küçük metin dosyalarıdır. Sitede tercih ettiğiniz dil ve diğer ayarları içeren bu
+                        küçük metin dosyaları, siteye bir sonraki ziyaretinizde tercihlerinizin hatırlanmasına ve sitedeki
+                        deneyiminizi iyileştirmek için hizmetlerimizde geliştirmeler yapmamıza yardımcı olur. Böylece bir
+                        sonraki ziyaretinizde daha iyi ve kişiselleştirilmiş bir kullanım deneyimi yaşayabilirsiniz.</p>
+                     <p>İnternet Sitemizde çerez kullanılmasının başlıca amaçları aşağıda sıralanmaktadır:</p>
+                     <ul>
+                        <li>İnternet sitesinin işlevselliğini ve performansını arttırmak yoluyla sizlere sunulan hizmetleri
+                           geliştirmek,</li>
+                        <li>İnternet Sitesini iyileştirmek ve İnternet Sitesi üzerinden yeni özellikler sunmak ve sunulan
+                           özellikleri sizlerin tercihlerine göre kişiselleştirmek;</li>
+                        <li>İnternet Sitesinin, sizin ve Kurum’un hukuki ve ticari güvenliğinin teminini sağlamak, Site
+                           üzerinden sahte işlemlerin gerçekleştirilmesini önlemek;</li>
+                        <li>5651 sayılı Internet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen
+                           Suçlarla Mücadele Edilmesi Hakkında Kanun ve Internet Ortamında Yapılan Yayınların Düzenlenmesine
+                           Dair Usul ve Esaslar Hakkında Yönetmelik’ten kaynaklananlar başta olmak üzere, kanuni ve
+                           sözleşmesel yükümlülüklerini yerine getirmek.</li>
+                     </ul>
+      
+                     <h5><strong>3.İNTERNET SİTEMİZDE KULLANILAN ÇEREZ TÜRLERİ</strong></h5>
+      
+                     <h6><strong>3.1.Oturum Çerezleri</strong></h6>
+                     <p>Oturum çerezlerini ziyaretinizi süresince internet sitesinin düzgün bir şekilde çalışmasının teminini
+                        sağlamaktadır. Sitelerimizin ve sizin, ziyaretinizde güvenliğini, sürekliliğini sağlamak gibi
+                        amaçlarla kullanılırlar. Oturum çerezleri geçici çerezlerdir, siz tarayıcınızı kapatıp sitemize tekrar
+                        geldiğinizde silinir, kalıcı değillerdir.</p>
+      
+                     <h6><strong>3.2.Kalıcı Çerezler</strong></h6>
+                     <p>Bu tür çerezler tercihlerinizi hatırlamak için kullanılır ve tarayıcılar vasıtasıyla cihazınızda
+                        depolanır Kalıcı çerezler, sitemizi ziyaret ettiğiniz tarayıcınızı kapattıktan veya bilgisayarınızı
+                        yeniden başlattıktan sonra bile saklı kalır. Tarayıcınızın ayarlarından silinene kadar bu çerezler
+                        tarayıcınızın alt klasörlerinde tutulurlar.</p>
+                     <p>Kalıcı çerezlerin bazı türleri; İnternet Sitesini kullanım amacınız gibi hususlar göz önünde
+                        bulundurarak sizlere özel öneriler sunulması için kullanılabilmektedir.</p>
+                     <p>Kalıcı çerezler sayesinde İnternet Sitemizi aynı cihazla tekrardan ziyaret etmeniz durumunda,
+                        cihazınızda İnternet Sitemiz tarafından oluşturulmuş bir çerez olup olmadığı kontrol edilir ve var
+                        ise, sizin siteyi daha önce ziyaret ettiğiniz anlaşılır ve size iletilecek içerik bu doğrultuda
+                        belirlenir ve böylelikle sizlere daha iyi bir hizmet sunulur.</p>
+      
+                     <h6><strong>3.3.Zorunlu/Teknik Çerezler</strong></h6>
+                     <p>Ziyaret ettiğiniz internet sitesinin düzgün şekilde çalışabilmesi için zorunlu çerezlerdir. Bu tür
+                        çerezlerin amacı, sitenin çalışmasını sağlamak yoluyla gerekli hizmet sunmaktır. Örneğin, internet
+                        sitesinin güvenli bölümlerine erişmeye, özelliklerini kullanabilmeye, üzerinde gezinti yapabilmeye
+                        olanak verir.</p>
+      
+                     <h6><strong>3.4.Analitik Çerezler</strong></h6>
+                     <p>İnternet sitesinin kullanım şekli, ziyaret sıklığı ve sayısı, hakkında bilgi toplayan ve
+                        ziyaretçilerin siteye nasıl geçtiğini gösterirler. Bu tür çerezlerin kullanım amacı, sitenin işleyiş
+                        biçimini iyileştirerek performans arttırmak ve genel eğilim yönünü belirlemektir. Ziyaretçi
+                        kimliklerinin tespitini sağlayabilecek verileri içermezler. Örneğin, gösterilen hata mesajı sayısı
+                        veya en çok ziyaret edilen sayfaları gösterirler.</p>
+      
+                     <h6><strong>3.5.İşlevsel/Fonksiyonel Çerezler</strong></h6>
+                     <p>Ziyaretçinin site içerisinde yaptığı seçimleri kaydederek bir sonraki ziyarette hatırlar. Bu tür
+                        çerezlerin amacı ziyaretçilere kullanım kolaylığı sağlamaktır. Örneğin, site kullanıcısının ziyaret
+                        ettiği her bir sayfada kullanıcı şifresini tekrar girmesini önler.</p>
+      
+                     <h6><strong>3.6. Hedefleme/Reklam Çerezleri</strong></h6>
+                     <p>Ziyaretçilere sunulan reklamların etkinliğinin ölçülmesi ve reklamların kaç kere görüntülendiğinin
+                        hesaplanmasını sağlarlar. Bu tür çerezlerin amacı, ziyaretçilerin ilgi alanlarına özelleştirilmiş
+                        reklamların sunulmasıdır.</p>
+                     <p>Aynı şekilde, ziyaretçilerin gezinmelerine özel olarak ilgi alanlarının tespit edilmesini ve uygun
+                        içeriklerin sunulmasını sağlarlar. Örneğin, ziyaretçiye gösterilen reklamın kısa süre içinde tekrar
+                        gösterilmesini engeller.</p>
+      
+                     <h5><strong>4.ÇEREZ TERCİHLERİ NASIL YÖNETİLİR?</strong></h5>
+                     <p>Çerezlerin kullanımına ilişkin tercihlerinizi değiştirmek ya da çerezleri engellemek veya silmek için
+                        tarayıcınızın ayarlarını değiştirmeniz yeterlidir.</p>
+                     <p>Birçok tarayıcı çerezleri kontrol edebilmeniz için size çerezleri kabul etme veya reddetme, yalnızca
+                        belirli türdeki çerezleri kabul etme ya da bir internet sitesinin cihazınıza çerez depolamayı talep
+                        ettiğinde tarayıcı tarafından uyarılma seçeneği sunar.</p>
+                     <p>Aynı zamanda, daha önce tarayıcınıza kaydedilmiş çerezlerin silinmesi de mümkündür.</p>
+                     <p>Çerezleri devre dışı bırakır veya reddederseniz, bazı tercihleri manuel olarak ayarlamanız
+                        gerekebilir, hesabınızı tanıyamayacağımız ve ilişkilendiremeyeceğimiz için internet sitesindeki bazı
+                        özellikler ve hizmetler düzgün çalışmayabilir. Tarayıcınızın ayarlarını aşağıdaki tablodan ilgili
+                        link’e tıklayarak değiştirebilirsiniz.</p>
+      
+                     <h5><strong>5.İNTERNET SİTESİ GİZLİLİK POLİTİKASI’NIN YÜRÜRLÜĞÜ</strong></h5>
+                     <p>İnternet Sitesi Gizlilik Politikası ..../..../.... tarihlidir. Politika’nın tümünün veya belirli
+                        maddelerinin yenilenmesi durumunda Politika’nın yürürlük tarihi güncellenecektir. Gizlilik Politikası
+                        Kurum’un internet sitesinde (www.alanadi.com) yayımlanır ve kişisel veri sahiplerinin talebi üzerine
+                        ilgili kişilerin erişimine sunulur.</p>
+                     <p>Firma Adı<br>Adres: Mahalle Adı Sokak Adı. No: 1/A, 34444 İlçe Adı/İl Adı<br>Telefon: +90 216 555
+                        55 55<br>E – Posta: mail@alanadi.com<br>Web Adresi: www.alanadi.com</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   <section class="popup-field group/popup border-0 outline-none p-0 m-0 fixed left-0 top-0 w-dvw h-dvh bg-transparent overflow-hidden backdrop-blur-none" id="media" popover data-media>
+      <button class="background fixed left-0 top-0 w-full h-full bg-black/75 translate-z-0 cursor-pointer" popovertarget="media" popovertargetaction="hide" data-media-close></button>
+      <div class="content-wrapper w-full h-full relative z-[2] pointer-events-none grid range-1 [--minv-1:30] [--maxv-1:60] p-[--range-1]">
+         <div class="inner-wrapper relative max-w-full max-h-full mx-auto my-auto w-max h-max pointer-events-auto flex md:w-full">
+            <button class="icon-wrapper group/close absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 duration-300 range-1 [--minv-1:36] [--maxv-1:54] size-[--range-1] bg-white border border-solid border-white items-center justify-center rounded-full cursor-pointer hover:bg-main-500 hover:border-main-500 z-[10] shadow-[0px_10px_10px_rgba(0,0,0,0.1)] flex" popovertarget="media" popovertargetaction="hide" data-media-close>
+               <div class="close cursor-pointer range-1 [--minv-1:16] [--maxv-1:18] size-[--range-1] duration-300 group-hover/close:rotate-90">
+                  <div class="line range-1 [--minv-1:14] [--maxv-1:18] w-[--range-1] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-main-500 group-hover/close:bg-white duration-300"></div>
+                  <div class="line range-1 [--minv-1:14] [--maxv-1:18] w-[--range-1] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-45 bg-main-500 group-hover/close:bg-white duration-300"></div>
+               </div>
+            </button>
+            <div class="overflow-wrapper h-full w-full range-4 [--minv-4:8] [--maxv-4:16] [&_*]:rounded-[--range-4] max-w-full range-1 [--minv-1:30] [--maxv-1:60] max-h-[calc(100dvh-(var(--range-1)*2))] md:mx-auto md:w-fit bg-white rounded-[20px]"></div>
+         </div>
+      </div>
+   </section>
+   
+   <section class="popup-field group/popup border-0 outline-none p-0 m-0 fixed left-0 top-0 w-dvw h-dvh bg-transparent overflow-hidden backdrop-blur-none" id="media-carousel" popover data-media-carousel>
+      <button class="background fixed left-0 top-0 w-full h-full bg-black/75 translate-z-0 cursor-pointer" popovertarget="media-carousel" popovertargetaction="hide" data-media-carousel-close></button>
+      <div class="content-wrapper w-full h-full relative z-[2] pointer-events-none grid range-1 [--minv-1:30] [--maxv-1:60] p-[--range-1]">
+         <div class="inner-wrapper relative max-w-full max-h-full mx-auto my-auto w-full h-max pointer-events-auto flex">
+            <button class="icon-wrapper group/close absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 duration-300 range-1 [--minv-1:36] [--maxv-1:54] size-[--range-1] bg-white border border-solid border-white items-center justify-center rounded-0 cursor-pointer hover:bg-main-500 hover:border-main-500 z-[10] shadow-[0px_10px_10px_rgba(0,0,0,0.1)] flex" popovertarget="media-carousel" popovertargetaction="hide" data-media-carousel-close>
+               <div class="close cursor-pointer range-1 [--minv-1:16] [--maxv-1:18] size-[--range-1] duration-300 group-hover/close:rotate-90">
+                  <div class="line range-1 [--minv-1:14] [--maxv-1:18] w-[--range-1] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-main-500 group-hover/close:bg-white duration-300"></div>
+                  <div class="line range-1 [--minv-1:14] [--maxv-1:18] w-[--range-1] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-45 bg-main-500 group-hover/close:bg-white duration-300"></div>
+               </div>
+            </button>
+            <div class="overflow-wrapper h-full w-full range-1 [--minv-1:30] [--maxv-1:60] md:mx-auto md:w-fit bg-white rounded-0 block max-h-[calc(100dvh-(var(--range-1)*2))] max-w-[calc(100dvw-(var(--range-1)*2))]">
+               <div class="carousel-wrapper relative block w-full h-full">
+                  <div class="media-carousel swiper !h-full w-full">
+                     <div class="swiper-wrapper"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <div class="body-overlay fixed left-0 top-0 w-full h-full z-[70] bg-black/50 pointer-events-none opacity-0 duration-300 [&.toggle]:opacity-100 [&.toggle]:pointer-events-auto"></div>
+
+   <div class="cookie-box duration-300 max-h-svh overflow-y-auto fixed !hidden bottom-[30px] sm:right-0 sm:bottom-0 right-[30px] z-[120] p-[30px] bg-black max-w-[625px] sm:max-w-none translate-y-[125%] scrollbar scrollbar-w-[4px] scrollbar-h-[4px] scrollbar-thumb-main-500 scrollbar-track-main-500/10 scrollbar-thumb-rounded-none rounded-[8px] sm:rounded-none" data-cookie-expire="14">
+      <div class="title-field flex justify-between items-center gap-[20px] text-white">
+         <div class="title text-[16px] font-medium">Çerez Ayarları</div>
+         <div class="close close-cookie relative cursor-pointer group/close size-[20px] duration-300 hover:rotate-90">
+            <div class="line w-[20px] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white"></div>
+            <div class="line w-[20px] h-[1px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-45 bg-white"></div>
+         </div>
+      </div>
+      <div class="text-field mt-[16px]">
+         <div class="expo text-[14px] sm:text-[12px] text-white/50">Bu web sitesinde, cihaz bilgilerini ve kişisel verileri işlemek için çerezleri ve benzer işlevleri kullanıyoruz. İşleme, içeriğin, harici hizmetlerin ve üçüncü şahısların unsurlarının, istatistiksel analiz/ölçümün, kişiselleştirilmiş reklamcılığın ve sosyal medyanın entegrasyonunun entegrasyonuna hizmet eder. İşleve bağlı olarak, veriler üçüncü taraflara aktarılır ve onlar tarafından işlenir. Bu onay isteğe bağlıdır, web sitemizin kullanımı için gerekli değildir ve sol alttaki simge kullanılarak herhangi bir zamanda iptal edilebilir.</div>
+      </div>
+      <div class="split my-[20px] bg-white/20 w-full h-px"></div>
+      <div class="options-field flex items-center justify-between sm:flex-col sm:gap-[16px] sm:items-start">
+         <div class="custom-check flex items-center gap-[10px]">
+            <div class="title text-[14px] text-white/75">Fonksiyonel</div>
+            <div class="selected-option h-[30px] rounded-full flex items-center justify-center px-[20px] border border-solid border-white">
+               <div class="text text-[12px] font-medium text-[#019B07]">Her Zaman Aktif</div>
+            </div>
+         </div>
+         <div class="custom-check flex items-center gap-[10px]">
+            <div class="title text-[14px] text-white/75">İstatistik</div>
+            <div class="check-option relative">
+               <input id="statistics" type="checkbox" class="absolute inset-0 size-full opacity-0 z-2 cursor-pointer peer" aria-label="Statistics" />
+               <div class="box h-[20px] pointer-events-none w-[42px] duration-300 rounded-full bg-white/15 after:absolute after:left-[4px] after:top-[4px] after:w-[12px] after:h-[12px] after:rounded-full after:bg-white after:duration-300 peer-checked:bg-white/25 peer-checked:after:translate-x-[22px]"></div>
+            </div>
+         </div>
+         <div class="custom-check flex items-center gap-[10px]">
+            <div class="title text-[14px] text-white/75">Pazarlama</div>
+            <div class="check-option relative">
+               <input id="marketing" type="checkbox" class="absolute inset-0 size-full opacity-0 z-2 cursor-pointer peer" aria-label="Marketing" />
+               <div class="box h-[20px] pointer-events-none w-[42px] duration-300 rounded-full bg-white/15 after:absolute after:left-[4px] after:top-[4px] after:w-[12px] after:h-[12px] after:rounded-full after:bg-white after:duration-300 peer-checked:bg-white/25 peer-checked:after:translate-x-[22px]"></div>
+            </div>
+         </div>
+      </div>
+      <div class="split my-[20px] bg-white/20 w-full h-px"></div>
+      <div class="action-field flex items-center justify-between gap-[20px] sm:flex-col">
+         <button class="button accept-cookie close-cookie group/button w-full flex justify-center items-center gap-[20px] bg-main-500 px-[20px] hover:bg-main-600 h-[45px] md:h-[50px] duration-300 border-0 rounded-[8px]">
+            <div class="text text-[14px] text-white font-medium relative z-2 whitespace-nowrap duration-300">Çerezleri Kabul Et</div>
+         </button>
+         <button class="button close-cookie group/button w-full flex justify-center items-center gap-[20px] bg-transparent px-[20px] h-[45px] md:h-[50px] duration-300 border border-solid border-white/50 hover:border-white rounded-[8px]">
+            <div class="text text-[14px] text-white/50 duration-300 font-medium relative z-2 whitespace-nowrap group-hover/button:text-white">Reddet</div>
+         </button>
+      </div>
+      <div class="link-field mt-[30px]">
+         <button popovertarget="gdpr" class="text-white/50 duration-300 hover:text-white text-[14px] font-medium">Kişisel Verilerin Korunması</button>
+         <span class="mx-[10px] text-white/50">|</span>
+         <a href="page.html" class="text-white/50 duration-300 hover:text-white text-[14px] font-medium">Gizlilik</a>
+      </div>
+   </div>
+   
+
+   <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3753e6d7a56ee80',t:'MTc4ODc3OTE4NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      const popup = document.getElementById("custom-popup");
+      const openBtn = document.getElementById("open-popup");
+      const closeBtn = document.getElementById("close-popup");
+
+      // Show Popup
+      openBtn.addEventListener("click", function () {
+         popup.classList.remove("hidden");
+      });
+
+      // Hide Popup
+      closeBtn.addEventListener("click", function () {
+         popup.classList.add("hidden");
+      });
+
+      // Close Popup When Clicking Outside
+      popup.addEventListener("click", function (event) {
+         if (event.target === popup) {
+            popup.classList.add("hidden");
+         }
+      });
+   });
+
+
+</script>

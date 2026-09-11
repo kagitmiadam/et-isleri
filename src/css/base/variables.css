@@ -1,0 +1,93 @@
+:root {
+   --header-height: 180px;
+   --width-container: 1680px;
+   --gap: 30px;
+   --font-family: 'Segoe UI';
+   --h1: clamp(32px, 3.75vw, 72px);
+   --h2: clamp(28px, 2.5vw, 48px);
+   --h3: clamp(24px, 1.875vw, 36px);
+   --h4: clamp(22px, 1.563vw, 30px);
+   --h5: clamp(18px, 1.25vw, 24px);
+   --h6: clamp(16px, 1.042vw, 20px);
+   --p: clamp(14px, 0.938vw, 18px);
+   --li: clamp(14px, 0.938vw, 18px);
+   --max-vw: 1560;
+   --min-vw: 375;
+   --max-vw-container: 1920;
+   --min-vw-container: 1280;
+}
+@media screen and (max-width: 1280px) {
+   :root {
+      --header-height: 100px;
+   }
+}
+.range-fs {
+   --range-fs: clamp(
+      calc(var(--minv-fs) * 1px),
+      calc(
+         var(--minv-fs) * 1px + (var(--maxv-fs) - var(--minv-fs)) *
+            ((100vw - (var(--min-vw) * 1px)) / (var(--max-vw) - var(--min-vw)))
+      ),
+      calc(var(--maxv-fs) * 1px)
+   );
+}
+.range-1 {
+   --range-1: clamp(
+      calc(var(--minv-1) * 1px),
+      calc(
+         var(--minv-1) * 1px + (var(--maxv-1) - var(--minv-1)) *
+            ((100vw - (var(--min-vw) * 1px)) / (var(--max-vw) - var(--min-vw)))
+      ),
+      calc(var(--maxv-1) * 1px)
+   );
+}
+.range-2 {
+   --range-2: clamp(
+      calc(var(--minv-2) * 1px),
+      calc(
+         var(--minv-2) * 1px + (var(--maxv-2) - var(--minv-2)) *
+            ((100vw - (var(--min-vw) * 1px)) / (var(--max-vw) - var(--min-vw)))
+      ),
+      calc(var(--maxv-2) * 1px)
+   );
+}
+.range-3 {
+   --range-3: clamp(
+      calc(var(--minv-3) * 1px),
+      calc(
+         var(--minv-3) * 1px + (var(--maxv-3) - var(--minv-3)) *
+            ((100vw - (var(--min-vw) * 1px)) / (var(--max-vw) - var(--min-vw)))
+      ),
+      calc(var(--maxv-3) * 1px)
+   );
+}
+.range-4 {
+   --range-4: clamp(
+      calc(var(--minv-4) * 1px),
+      calc(
+         var(--minv-4) * 1px + (var(--maxv-4) - var(--minv-4)) *
+            ((100vw - (var(--min-vw) * 1px)) / (var(--max-vw) - var(--min-vw)))
+      ),
+      calc(var(--maxv-4) * 1px)
+   );
+}
+.range-5 {
+   --range-5: clamp(
+      calc(var(--minv-5) * 1px),
+      calc(
+         var(--minv-5) * 1px + (var(--maxv-5) - var(--minv-5)) *
+            ((100vw - (var(--min-vw) * 1px)) / (var(--max-vw) - var(--min-vw)))
+      ),
+      calc(var(--maxv-5) * 1px)
+   );
+}
+.range-container {
+   --range-container: clamp(
+      calc(var(--minv-container) * 1px),
+      calc(
+         var(--minv-container) * 1px + (var(--maxv-container) - var(--minv-container)) *
+            ((100vw - (var(--min-vw-container) * 1px)) / (var(--max-vw-container) - var(--min-vw-container)))
+      ),
+      calc(var(--maxv-container) * 1px)
+   );
+}

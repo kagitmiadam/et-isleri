@@ -1,0 +1,68 @@
+@property --percent-start {
+   syntax: '<percentage>';
+   inherits: false;
+   initial-value: 0;
+}
+@property --percent-end {
+   syntax: '<percentage>';
+   inherits: false;
+   initial-value: 0;
+}
+[data-detect-scroll-position*='fade-y'] {
+   --percent-start: 100%;
+   --percent-end: 100%;
+   transition:
+      --percent-start 0.1s linear,
+      --percent-end 0.1s linear;
+   -webkit-mask-image:
+      linear-gradient(
+         180deg,
+         rgba(255, 255, 255, var(--percent-start)),
+         #000,
+         #000,
+         rgba(255, 255, 255, var(--percent-end))
+      ),
+      linear-gradient(270deg, #000 8px, transparent 0);
+   mask-image:
+      linear-gradient(
+         180deg,
+         rgba(255, 255, 255, var(--percent-start)),
+         #000,
+         #000,
+         rgba(255, 255, 255, var(--percent-end))
+      ),
+      linear-gradient(270deg, #000 8px, transparent 0);
+}
+[data-detect-scroll-position*='fade-y']:not(.scroll-at-top) {
+   --percent-start: 0%;
+}
+[data-detect-scroll-position*='fade-y']:not(.scroll-at-bottom) {
+   --percent-end: 0%;
+}
+[data-detect-scroll-position*='fade-x'] {
+   --percent-start: 100%;
+   --percent-end: 100%;
+   transition:
+      --percent-start 0.1s linear,
+      --percent-end 0.1s linear;
+   -webkit-mask-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, var(--percent-start)),
+      #000,
+      #000,
+      rgba(255, 255, 255, var(--percent-end))
+   );
+   mask-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, var(--percent-start)),
+      #000,
+      #000,
+      rgba(255, 255, 255, var(--percent-end))
+   );
+}
+[data-detect-scroll-position*='fade-x']:not(.scroll-at-left) {
+   --percent-start: 0%;
+}
+[data-detect-scroll-position*='fade-x']:not(.scroll-at-right) {
+   --percent-end: 0%;
+}
